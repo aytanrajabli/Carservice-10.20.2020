@@ -1,0 +1,272 @@
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+header .header-top {
+  font-size: .8em;
+  background: #f5f5f5;
+}
+
+header .header-top .top-left span {
+  padding: 15px;
+  line-height: 45px;
+  border-left: 1px solid #ddd;
+}
+
+header .header-top .top-left span:nth-child(3) {
+  border-right: 1px solid #ddd;
+}
+
+header .header-top .top-right i {
+  padding: 15px;
+  border-right: 1px solid #ddd;
+}
+
+header .header-top .top-right i:nth-child(1) {
+  border-left: 1px solid #ddd;
+}
+
+header .header-bottom .menu li:first-child a {
+  color: blue;
+}
+
+header .header-bottom .menu li a {
+  padding: 15px;
+  color: black;
+}
+
+header .header-bottom .menu li.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.slider {
+  background: url(../photo/image_03.jpg) no-repeat center/cover;
+  background-attachment: fixed;
+  height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.slider .slider-text i {
+  padding: 30px;
+  background: cornflowerblue;
+  -webkit-clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+          clip-path: polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%);
+}
+
+.announcement {
+  background: #F5F5F5;
+  padding: 70px;
+}
+
+.announcement h3 {
+  margin-left: 118px;
+  font-size: 22px;
+  line-height: 34px;
+  font-weight: 400;
+}
+
+.announcement button {
+  background: cornflowerblue;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 19px 20px;
+  text-align: center;
+}
+
+.announcement button:hover {
+  background: #1E69B8;
+}
+
+.choose p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-top: 34px;
+  margin: 0px 170px;
+}
+
+.choose h2 {
+  margin: 20px 0;
+}
+
+.choose h2::after {
+  content: '';
+  display: block;
+  background: #1E69B8;
+  width: 40px;
+  height: 2px;
+  text-align: center;
+  padding-left: 100px;
+  margin-left: 500px;
+}
+
+.boxAll .box-txt {
+  margin-top: 50px;
+}
+
+.boxAll .box-txt p {
+  color: #7F7F90;
+}
+
+.boxAll .box-txt h4 {
+  margin: 30px 0;
+}
+
+.boxAll .box-txt h4 i {
+  margin-top: 50px;
+}
+
+button {
+  color: white;
+  background: cornflowerblue;
+  padding: 15px 35px;
+  margin-top: 30px;
+  border: none;
+  font-weight: 500;
+  text-align: center;
+}
+
+button:hover {
+  background: #1E69B8;
+}
+
+.auto-txt p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  margin-top: 32px;
+  color: #777;
+}
+
+.auto-txt h2 {
+  margin: 30px 0;
+}
+
+.oil-img button {
+  color: white;
+  background: cornflowerblue;
+  padding: 15px 35px;
+  margin-top: 30px;
+  border: none;
+  font-weight: 500;
+  text-align: center;
+}
+
+.oil-img button:hover {
+  background: #1E69B8;
+}
+
+.oil-img h3 {
+  background: #ddd;
+}
+
+.blk {
+  margin-top: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: url(../photo/image_03-390x260.jpg) no-repeat center/cover;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+.blk .black-txt {
+  font-family: 'Open Sans', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 21px;
+  color: #FFF;
+  line-height: 36px;
+  padding: 40px 130px 0;
+}
+
+.company {
+  text-align: center;
+  margin: 30px;
+}
+
+.company p {
+  color: gray;
+}
+
+.company h2 {
+  font-size: 33px;
+  line-height: 44px;
+  font-weight: 300;
+}
+
+.umumi h5 {
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.umumi p {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0;
+  margin-top: 16px;
+  margin-left: 78px;
+}
+
+.umumi2 h5 {
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.umumi2 p {
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0;
+  margin-top: 16px;
+  margin-left: 78px;
+}
+
+.images {
+  width: 100%;
+  height: auto;
+  background-position: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.little-place button {
+  color: white;
+  background: cornflowerblue;
+  padding: 15px 35px;
+  margin-top: 30px;
+  border: none;
+  font-weight: 500;
+  text-align: center;
+}
+
+.little-place button:hover {
+  background: #1E69B8;
+}
+
+.img-logo {
+  margin-top: 50px;
+}
+
+.footer span {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
